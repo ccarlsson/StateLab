@@ -4,7 +4,7 @@
     {
         Console.WriteLine($"Elevator is stopped at floor {Floor}");
         Console.WriteLine("Enter target floor:");
-        int targetFloor = int.Parse(Console.ReadLine());
+        int targetFloor = int.TryParse(Console.ReadLine(), out targetFloor) ? targetFloor : Floor;
         TargetFloor = targetFloor;
         if (Floor < TargetFloor)
         {
