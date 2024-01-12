@@ -1,8 +1,4 @@
-﻿
-
-
-
-public class ElevatorStateMovingUp(int floor, int targetFloor) : ElevatorState(floor, targetFloor)
+﻿public class ElevatorStateMovingUp(int floor, int targetFloor) : ElevatorState(floor, targetFloor)
 {
 
     public override ElevatorState Move()

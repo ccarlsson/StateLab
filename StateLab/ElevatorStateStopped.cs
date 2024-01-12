@@ -1,8 +1,4 @@
-﻿
-
-
-
-public class ElevatorStateStopped(int floor) : ElevatorState(floor, floor)
+﻿public class ElevatorStateStopped(int floor) : ElevatorState(floor, floor)
 {
     public override ElevatorState Move()
     {
