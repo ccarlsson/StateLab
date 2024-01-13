@@ -1,4 +1,6 @@
-﻿public abstract class ElevatorState(int floor, int targetFloor)
+﻿namespace StateLab;
+
+public abstract class ElevatorState(int floor, int targetFloor)
 {
     protected int _floor = floor;
     public int Floor { get { return _floor; } }
